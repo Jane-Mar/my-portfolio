@@ -98,9 +98,14 @@ p {
 
   p {
     text-align: center;
+    margin: 10px;
   }
 
   #link-to-app {
     text-align: center;
+  }
+
+  .email-link {
+    font-size: 24px;
   }
 } ;
