@@ -21,6 +21,7 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  margin-top: 10px;
 }
 
 p {
@@ -80,3 +81,26 @@ p {
   text-transform: capitalize;
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 765px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  #link-to-app {
+    text-align: center;
+  }
+} ;
